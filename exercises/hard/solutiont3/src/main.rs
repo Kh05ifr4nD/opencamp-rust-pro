@@ -3,6 +3,6 @@
 mod district;
 
 fn main() {
-    let provinces = district::count_provinces();
-    println!("provinces: {provinces}");
+  let provinces = district::count_prov();
+  println!("provinces: {provinces}");
 }

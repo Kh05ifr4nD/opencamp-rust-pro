@@ -2,11 +2,11 @@
 
 ## 使用教程
 
-* 首先 fork 本仓库至自己的 GitHub 账号下。
-* 将 fork 后的仓库 clone 至本地进行实验。
-* 完成实验后 git push 到 fork 后的 GitHub 仓库。
-* 仓库会运行CI/CD 系统评测实验。
-* 实验成绩可在 [https://opencamp.ai/Rust/camp/S01/stage/2?tab=rank](https://opencamp.ai/Rust/camp/S01/stage/2?tab=rank) 查看。
+- 首先 fork 本仓库至自己的 GitHub 账号下。
+- 将 fork 后的仓库 clone 至本地进行实验。
+- 完成实验后 git push 到 fork 后的 GitHub 仓库。
+- 仓库会运行CI/CD 系统评测实验。
+- 实验成绩可在 [https://opencamp.ai/Rust/camp/S01/stage/2?tab=rank](https://opencamp.ai/Rust/camp/S01/stage/2?tab=rank) 查看。
 
 在本地查看实验结果，于仓库根目录使用。
 
@@ -31,4 +31,3 @@ cargo run all
 **如有不明之处，或在实验过程中遇到问题，可随时联系助教解决。**
 
 **完成实验后请及时加入项目阶段群，群聊二维码在完成试验后会显示在排行榜页面。**
-

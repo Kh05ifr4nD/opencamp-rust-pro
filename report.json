@@ -1,161 +1,161 @@
 {
-  "exercises": [
-    {
-      "name": "algorithm1.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm2.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm3.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm4.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm5.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm6.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm7.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm8.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm9.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm10.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm11.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm12.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm13.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm14.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm15.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm16.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm17.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm18.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm19.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "algorithm20.rs",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solution1",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solution2",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solution3",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solution4",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solution5",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solutiont1",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solutiont2",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solutiont3",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solutiont4",
-      "result": false,
-      "score": 0
-    },
-    {
-      "name": "solutiont5",
-      "result": false,
-      "score": 0
-    }
-  ],
-  "statistics": {
-    "total_exercises": 30,
-    "total_successes": 0,
-    "total_failures": 30,
-    "total_score": 0,
-    "total_time": 5
-  }
+	"exercises": [
+		{
+			"name": "algorithm1.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm2.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm3.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm4.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm5.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm6.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm7.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm8.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm9.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm10.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm11.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm12.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm13.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm14.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm15.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm16.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm17.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm18.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm19.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "algorithm20.rs",
+			"result": true,
+			"score": 1
+		},
+		{
+			"name": "solution1",
+			"result": true,
+			"score": 6
+		},
+		{
+			"name": "solution2",
+			"result": true,
+			"score": 6
+		},
+		{
+			"name": "solution3",
+			"result": true,
+			"score": 6
+		},
+		{
+			"name": "solution4",
+			"result": true,
+			"score": 6
+		},
+		{
+			"name": "solution5",
+			"result": true,
+			"score": 6
+		},
+		{
+			"name": "solutiont1",
+			"result": true,
+			"score": 10
+		},
+		{
+			"name": "solutiont2",
+			"result": true,
+			"score": 10
+		},
+		{
+			"name": "solutiont3",
+			"result": true,
+			"score": 10
+		},
+		{
+			"name": "solutiont4",
+			"result": true,
+			"score": 10
+		},
+		{
+			"name": "solutiont5",
+			"result": true,
+			"score": 10
+		}
+	],
+	"statistics": {
+		"total_exercises": 30,
+		"total_successes": 30,
+		"total_failures": 0,
+		"total_score": 100,
+		"total_time": 36
+	}
 }

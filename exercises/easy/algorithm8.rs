@@ -1,104 +1,107 @@
 /*
-	queue
-	This question requires you to use queues to implement the functionality of the stac
+  queue
+  This question requires you to use queues to implement the functionality of the stac
 */
-
 
 #[derive(Debug)]
 pub struct Queue<T> {
-    elements: Vec<T>,
+  data: Vec<T>,
 }
 
 impl<T> Queue<T> {
-    pub fn new() -> Queue<T> {
-        Queue {
-            elements: Vec::new(),
-        }
-    }
+  pub fn new() -> Queue<T> {
+    Queue { data: Vec::new() }
+  }
 
-    pub fn enqueue(&mut self, value: T) {
-        self.elements.push(value)
-    }
+  pub fn push(&mut self, val: T) {
+    self.data.push(val);
+  }
 
-    pub fn dequeue(&mut self) -> Result<T, &str> {
-        if !self.elements.is_empty() {
-            Ok(self.elements.remove(0usize))
-        } else {
-            Err("Queue is empty")
-        }
+  pub fn pop(&mut self) -> Option<T> {
+    if self.empty() {
+      None
+    } else {
+      Some(self.data.remove(0))
     }
+  }
 
-    pub fn peek(&self) -> Result<&T, &str> {
-        match self.elements.first() {
-            Some(value) => Ok(value),
-            None => Err("Queue is empty"),
-        }
-    }
+  pub fn front(&self) -> Option<&T> {
+    self.data.first()
+  }
 
-    pub fn size(&self) -> usize {
-        self.elements.len()
-    }
+  pub fn back(&self) -> Option<&T> {
+    self.data.last()
+  }
 
-    pub fn is_empty(&self) -> bool {
-        self.elements.is_empty()
-    }
+  pub fn size(&self) -> usize {
+    self.data.len()
+  }
+
+  pub fn empty(&self) -> bool {
+    self.data.is_empty()
+  }
 }
 
 impl<T> Default for Queue<T> {
-    fn default() -> Queue<T> {
-        Queue {
-            elements: Vec::new(),
-        }
-    }
+  fn default() -> Queue<T> {
+    Queue { data: Vec::new() }
+  }
 }
 
-pub struct myStack<T>
-{
-	//TODO
-	q1:Queue<T>,
-	q2:Queue<T>
+pub struct DummyStack<T> {
+  q1: Queue<T>,
+  q2: Queue<T>,
 }
-impl<T> myStack<T> {
-    pub fn new() -> Self {
-        Self {
-			//TODO
-			q1:Queue::<T>::new(),
-			q2:Queue::<T>::new()
-        }
+impl<T> DummyStack<T> {
+  pub fn new() -> Self {
+    Self { q1: Queue::new(), q2: Queue::new() }
+  }
+  pub fn push(&mut self, elem: T) {
+    self.q1.push(elem);
+  }
+  pub fn pop(&mut self) -> Result<T, &str> {
+    if self.empty() {
+      return Err("Stack is empty");
     }
-    pub fn push(&mut self, elem: T) {
-        //TODO
+
+    while self.q1.size() > 1 {
+      if let Some(val) = self.q1.pop() {
+        self.q2.push(val);
+      }
     }
-    pub fn pop(&mut self) -> Result<T, &str> {
-        //TODO
-		Err("Stack is empty")
-    }
-    pub fn is_empty(&self) -> bool {
-		//TODO
-        true
-    }
+
+    let rslt = self.q1.pop().ok_or("Stack is empty");
+
+    std::mem::swap(&mut self.q1, &mut self.q2);
+
+    rslt
+  }
+
+  pub fn empty(&self) -> bool {
+    self.q1.empty() && self.q2.empty()
+  }
 }
 
 #[cfg(test)]
 mod tests {
-	use super::*;
-	
-	#[test]
-	fn test_queue(){
-		let mut s = myStack::<i32>::new();
-		assert_eq!(s.pop(), Err("Stack is empty"));
-        s.push(1);
-        s.push(2);
-        s.push(3);
-        assert_eq!(s.pop(), Ok(3));
-        assert_eq!(s.pop(), Ok(2));
-        s.push(4);
-        s.push(5);
-        assert_eq!(s.is_empty(), false);
-        assert_eq!(s.pop(), Ok(5));
-        assert_eq!(s.pop(), Ok(4));
-        assert_eq!(s.pop(), Ok(1));
-        assert_eq!(s.pop(), Err("Stack is empty"));
-        assert_eq!(s.is_empty(), true);
-	}
+  use super::*;
+
+  #[test]
+  fn test_queue() {
+    let mut s = DummyStack::<i32>::new();
+    assert_eq!(s.pop(), Err("Stack is empty"));
+    s.push(1);
+    s.push(2);
+    s.push(3);
+    assert_eq!(s.pop(), Ok(3));
+    assert_eq!(s.pop(), Ok(2));
+    s.push(4);
+    s.push(5);
+    assert_eq!(s.empty(), false);
+    assert_eq!(s.pop(), Ok(5));
+    assert_eq!(s.pop(), Ok(4));
+    assert_eq!(s.pop(), Ok(1));
+    assert_eq!(s.pop(), Err("Stack is empty"));
+    assert_eq!(s.empty(), true);
+  }
 }

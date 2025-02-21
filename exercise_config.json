@@ -1,188 +1,188 @@
 {
-  "easy": [
-    {
-      "name": "algorithm1.rs",
-      "path": "easy/algorithm1.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm2.rs",
-      "path": "easy/algorithm2.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm3.rs",
-      "path": "easy/algorithm3.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm4.rs",
-      "path": "easy/algorithm4.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm5.rs",
-      "path": "easy/algorithm5.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm6.rs",
-      "path": "easy/algorithm6.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm7.rs",
-      "path": "easy/algorithm7.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm8.rs",
-      "path": "easy/algorithm8.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm9.rs",
-      "path": "easy/algorithm9.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm10.rs",
-      "path": "easy/algorithm10.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm11.rs",
-      "path": "easy/algorithm11.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm12.rs",
-      "path": "easy/algorithm12.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm13.rs",
-      "path": "easy/algorithm13.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm14.rs",
-      "path": "easy/algorithm14.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm15.rs",
-      "path": "easy/algorithm15.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm16.rs",
-      "path": "easy/algorithm16.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm17.rs",
-      "path": "easy/algorithm17.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm18.rs",
-      "path": "easy/algorithm18.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm19.rs",
-      "path": "easy/algorithm19.rs",
-      "type": "single_file",
-      "score": 1
-    },
-    {
-      "name": "algorithm20.rs",
-      "path": "easy/algorithm20.rs",
-      "type": "single_file",
-      "score": 1
-    }
-  ],
-  "normal": [
-    {
-      "name": "solution1",
-      "path": "normal/solution1",
-      "type": "cargo_project",
-      "score": 6
-    },
-    {
-      "name": "solution2",
-      "path": "normal/solution2",
-      "type": "cargo_project",
-      "score": 6
-    },
-    {
-      "name": "solution3",
-      "path": "normal/solution3",
-      "type": "cargo_project",
-      "score": 6
-    },
-    {
-      "name": "solution4",
-      "path": "normal/solution4",
-      "type": "cargo_project",
-      "score": 6
-    },
-    {
-      "name": "solution5",
-      "path": "normal/solution5",
-      "type": "cargo_project",
-      "score": 6
-    }
-  ],
-  "hard": [
-    {
-      "name": "solutiont1",
-      "path": "hard/solutiont1",
-      "type": "cargo_project",
-      "score": 10
-    },
-    {
-      "name": "solutiont2",
-      "path": "hard/solutiont2",
-      "type": "cargo_project",
-      "score": 10
-    },
-    {
-      "name": "solutiont3",
-      "path": "hard/solutiont3",
-      "type": "cargo_project",
-      "score": 10
-    },
-    {
-      "name": "solutiont4",
-      "path": "hard/solutiont4",
-      "type": "cargo_project",
-      "score": 10
-    },
-    {
-      "name": "solutiont5",
-      "path": "hard/solutiont5",
-      "type": "cargo_project",
-      "score": 10
-    }
-  ]
+	"easy": [
+		{
+			"name": "algorithm1.rs",
+			"path": "easy/algorithm1.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm2.rs",
+			"path": "easy/algorithm2.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm3.rs",
+			"path": "easy/algorithm3.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm4.rs",
+			"path": "easy/algorithm4.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm5.rs",
+			"path": "easy/algorithm5.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm6.rs",
+			"path": "easy/algorithm6.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm7.rs",
+			"path": "easy/algorithm7.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm8.rs",
+			"path": "easy/algorithm8.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm9.rs",
+			"path": "easy/algorithm9.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm10.rs",
+			"path": "easy/algorithm10.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm11.rs",
+			"path": "easy/algorithm11.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm12.rs",
+			"path": "easy/algorithm12.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm13.rs",
+			"path": "easy/algorithm13.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm14.rs",
+			"path": "easy/algorithm14.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm15.rs",
+			"path": "easy/algorithm15.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm16.rs",
+			"path": "easy/algorithm16.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm17.rs",
+			"path": "easy/algorithm17.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm18.rs",
+			"path": "easy/algorithm18.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm19.rs",
+			"path": "easy/algorithm19.rs",
+			"type": "single_file",
+			"score": 1
+		},
+		{
+			"name": "algorithm20.rs",
+			"path": "easy/algorithm20.rs",
+			"type": "single_file",
+			"score": 1
+		}
+	],
+	"normal": [
+		{
+			"name": "solution1",
+			"path": "normal/solution1",
+			"type": "cargo_project",
+			"score": 6
+		},
+		{
+			"name": "solution2",
+			"path": "normal/solution2",
+			"type": "cargo_project",
+			"score": 6
+		},
+		{
+			"name": "solution3",
+			"path": "normal/solution3",
+			"type": "cargo_project",
+			"score": 6
+		},
+		{
+			"name": "solution4",
+			"path": "normal/solution4",
+			"type": "cargo_project",
+			"score": 6
+		},
+		{
+			"name": "solution5",
+			"path": "normal/solution5",
+			"type": "cargo_project",
+			"score": 6
+		}
+	],
+	"hard": [
+		{
+			"name": "solutiont1",
+			"path": "hard/solutiont1",
+			"type": "cargo_project",
+			"score": 10
+		},
+		{
+			"name": "solutiont2",
+			"path": "hard/solutiont2",
+			"type": "cargo_project",
+			"score": 10
+		},
+		{
+			"name": "solutiont3",
+			"path": "hard/solutiont3",
+			"type": "cargo_project",
+			"score": 10
+		},
+		{
+			"name": "solutiont4",
+			"path": "hard/solutiont4",
+			"type": "cargo_project",
+			"score": 10
+		},
+		{
+			"name": "solutiont5",
+			"path": "hard/solutiont5",
+			"type": "cargo_project",
+			"score": 10
+		}
+	]
 }
